@@ -1,0 +1,22 @@
+.pro_detail{
+    margin-top: 50px;
+}
+
+.pro_detail h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.pro_detail span i{
+    color: rgb(158, 158, 38);
+}
+
+.pro_detail p span{
+    color: coral;
+    font-weight: 700;
+}
+
+.pro_price{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
