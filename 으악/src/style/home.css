@@ -1,0 +1,47 @@
+.he_section{
+    background-color: rgb(115, 191, 191);
+    margin-top: 60px;
+}
+
+.he_section h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.he_section p{
+    color: black;
+    line-height: 28px;
+}
+
+.he_section p:nth-child(1){
+    font-weight: 500;
+}
+
+.bbbtn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(77, 69, 69);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.he_content{
+    /* padding-top: 50px; */
+    margin-top: 50px;
+}
+
+.timer{
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer img{
+    width: 400px !important;
+    height: 200px !important;
+    object-fit: contain;
+}
