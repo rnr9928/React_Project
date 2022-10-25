@@ -1,0 +1,23 @@
+.auth_f{
+    background-color: bisque;
+    padding: 40px;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+.aaa{
+   
+    font-weight: 600;
+}
+
+.auth_f p{
+    margin-top: 30px;
+}
+
+.auth_f input[type = 'file']{
+    cursor: pointer;
+    border: none;
+}
+
+
+

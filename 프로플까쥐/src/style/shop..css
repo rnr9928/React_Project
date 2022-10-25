@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Silkscreen&display=swap');
+
+.f-wi select{
+    padding: 8px 20px;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-family: 'Jua', sans-serif;
+}
+
+.f-wi select:focus{
+    outline: none !important;
+}
+
+.f-wi select option{
+    font-size: 0.9rem;
+}
+
+.searcch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.searcch input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+
+.searcch span{
+    color: var(--primary-color);
+}

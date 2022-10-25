@@ -1,0 +1,18 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+
+}
+
+td i{
+    cursor: pointer;
+}
+
+td{
+    color: black
+}
+
+.hmm span{
+   margin-right: 150px;;
+}
