@@ -1,0 +1,15 @@
+.co_section{
+    background: linear-gradient(rgb(46, 11, 11),rgb(108, 94, 94)),url("https://url.kr/nr6oi7") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.co_section h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Silkscreen&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+
+}
+
+.he_section{
+    background: linear-gradient(rgb(55, 216, 228), rgb(224, 178, 186));
+    margin-top: 50px;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 77%);
+}
+
+.he_section h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.he_section p{
+    color: black;
+    line-height: 28px;
+}
+
+.he_section p:nth-child(1){
+    font-weight: 500;
+}
+
+.bbbtn{
+    border: solid black 3px;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 50%;
+    background-color: rgb(77, 69, 69);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    width: 300px;
+    height: 100px;
+    text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+}
+
+.bbbtn1{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(77, 69, 69);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.he_content{
+    /* padding-top: 50px; */
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.timer{
+    background-color: rgb(67, 157, 192);
+    height: 300px;
+}
+
+.timer img{
+    width: 400px !important;
+    height: 200px !important;
+    object-fit: contain;
+}
+
+.clock_top{
+  
+    font-family: 'Jua', sans-serif;
+}
+
+.he_img{
+margin-left: 575px;
+margin-top: -410px;
+}
+
+.he_img img{
+    width: 400px;
+    height: 400px;
+ 
+}
+
+.m_img img{
+    align-items: center;
+    justify-items: center;
+    margin-left: -250px;
+    width: 200px;
+}
+
+.m1_img img{
+    margin-top: 150px;
+    width: 500px;
+    margin-left: 90px;
+  
+}
+.m2_img img{
+    margin-top: -280px;
+margin-left: 900px;
+width: 500px;
+}
+
+.cccc img{
+    background-size: cover;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.titleee p{
+    font-size: 90px;
+    margin-left: 530px;
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+    
+}
+
+.titleee span{
+    transform: scale(0.9);
+    display: inline-block;
+}
+

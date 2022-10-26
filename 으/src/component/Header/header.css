@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Silkscreen&display=swap');
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 30px;
+   
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logogo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logogo img{
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+    margin-left: -200px;
+}
+
+.logogo h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: rgb(35, 115, 117)
+}
+
+.logogo span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(221, 105, 84);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    margin-bottom: 0;
+}
+
+.iccon  span img{
+    width: 60px;
+    height: 60px;
+}
+
+.profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.iccon .profile{
+    position: relative;
+    z-index: 9;
+}
+
+ .profile .profile_action{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 100px;
+    border-radius: 10px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 183, 231);
+    line-height: 30px;
+    /* display: none; */
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+}
+
+.show_proFile:checked ~.substate{
+    
+    display: block;
+}
+
+.iccon {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item a{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.iccon span i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.n_active{
+    font-weight: 700 !important;
+}
+
+.c_icon  , .f_icon{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    content: '';
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+    font-size: .5rem;
+    font-weight: 600;
+    z-index: 999;
+}
+
