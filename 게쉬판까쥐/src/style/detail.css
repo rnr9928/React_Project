@@ -1,0 +1,99 @@
+.pro_detail{
+    margin-top: 70px;
+}
+
+.pro_detail h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.pro_detail span i{
+    color: rgb(158, 158, 38);
+}
+
+.pro_detail p span{
+    color: coral;
+    font-weight: 700;
+}
+
+.pro_price{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.tab_wrap {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.active__tab{
+    font-weight: 600;
+}
+
+.tab_content p{
+    line-height: 30px;
+}
+
+.review_wrap ul li span{
+    color: coral;
+    font-weight: 700;
+}
+
+.review_wrap ul li p{
+    margin-top: 10px;
+}
+
+.review_form{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review_form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.f_group input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.f_group textarea{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.f_group {
+    margin-bottom: 20px;
+}
+
+.f_group input:focus{
+    outline: none;
+}
+
+.f_group textarea:focus{
+    outline: none;
+}
+
+.f_group span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: coral;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rtitle{
+    font-style: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+

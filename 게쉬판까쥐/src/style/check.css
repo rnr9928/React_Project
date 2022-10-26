@@ -1,0 +1,26 @@
+.b_form .f_group input{
+    border: 2px solid black;
+}
+
+.check_cart{
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.check_cart h6,h4{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check_cart h6{
+    margin-bottom: 20px;
+
+}
+
+.check_cart h4{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
